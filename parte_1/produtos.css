@@ -1,5 +1,18 @@
 header{
     background: lightgrey;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 125px;
+    right: 0;
 }
 
 nav li {
@@ -17,4 +30,38 @@ nav a {
 }
 .rick {
     color: lightgrey;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nomeProduto {
+    font-size: 18px;
+}
+
+.preçoProduto {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
 }
