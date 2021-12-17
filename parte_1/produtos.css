@@ -28,6 +28,13 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+
 .rick {
     color: lightgrey;
 }
@@ -51,6 +58,30 @@ nav a {
     
 }
 
+.produtos li:hover {
+    border: darkgoldenrod 4px solid;
+    width: 30.1%;
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+    color: darkgoldenrod;
+}
+
+.produtos li:hover .nomeProduto {
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+
+.produtos li:hover .preçoProduto {
+    font-size: 24px;
+    color: darkgoldenrod;
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -64,4 +95,16 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 14px;
+    margin: 20px 0 0;
 }
