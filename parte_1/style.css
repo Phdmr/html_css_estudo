@@ -1,56 +1,142 @@
-body {
-    background: wheat;
+header{
+    background: lightgrey;
+    padding: 20px 0;
 }
 
-.titulo-principal{
-    padding-left: 20px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.barba {
-    border: 5px solid black;
-    width: 100%;
-    height: 330px;
+nav {
+    position: absolute;
+    top: 125px;
+    right: 0;
 }
 
-.principal{
-    background: gray;
-    padding: 30px;
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+
 }
 
-.titulo-centralizado {
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+
+.rick {
+    color: lightgrey;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 20px;
     text-align: center;
-    height: 10px;
-    padding:10px;
-    margin: 0px;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    
 }
 
-p {
-    text-align: left;
+.produtos li:hover {
+    border: darkgoldenrod 4px solid;
+    width: 30.1%;
 }
 
-#lema {
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+    color: darkgoldenrod;
+}
+
+.produtos li:hover .nomeProduto {
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+
+.produtos li:hover .preçoProduto {
+    font-size: 24px;
+    color: darkgoldenrod;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nomeProduto {
     font-size: 18px;
 }
 
-em strong {
-    color: red;
+.preçoProduto {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
 }
 
-.beneficios{
-    padding: 20px;
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
 
-.benef {
-    width: 45%;
+.copyright {
+    color: white;
+    font-size: 14px;
+    margin: 20px 0 0;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
+.principalContato {
+    width: 940px;
+    margin: 0 auto;
 }
 
-.itens {
-    font-style: italic;
+.fomuContato {
+    margin: 40px 0;
+
 }
 
+.fomuContato label, .fomuContato p {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 42%;
+}
+
+.contat {
+    margin: 5px 0;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
