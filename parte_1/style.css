@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: lightgrey;
     padding: 20px 0;
@@ -11,12 +15,12 @@ header{
 
 nav {
     position: absolute;
-    top: 125px;
+    top: 110px;
     right: 0;
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
     margin: 0 0 0 15px;
 
 }
@@ -47,15 +51,14 @@ nav a:hover {
 
 .produtos li {
     display: inline-block;
-    border: 3px solid black;
-    border-radius: 20px;
     text-align: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .produtos li:hover {
@@ -94,7 +97,7 @@ nav a:hover {
 .preçoProduto {
     font-size: 22px;
     font-weight: bold;
-    margin: 10px 0 0;
+    margin-top: 10px;
 }
 
 footer {
@@ -105,71 +108,102 @@ footer {
 
 .copyright {
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     margin: 20px 0 0;
 }
 
-.principalContato {
-    width: 940px;
-    margin: 0 auto;
+main {
+	width: 940px;
+	margin: 0 auto;
 }
 
-.fomuContato {
-    margin: 40px 0;
-
+form {
+	margin: 40px 0;
 }
 
-.fomuContato label, .fomuContato legend {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 0 10px;
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
 .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 42%;
-}
-
-.contat {
-    margin: 5px 0;
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
 .checkbox {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 .enviar {
-    width: 40%;
-    padding: 15px 0;
-    background: orange;
-    color: white;
-    font-weight: bolder;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
 }
 
-.enviar:hover{
-    background: darkorange;
-    transform: scale(1.05);
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
 }
 
-.tabelaAtend {
-    margin: 20px;
+table {
+	margin: 20px 0 40px;
 }
 
-.tabelaAtend thead{
-    background: darkgray;
-    color: white;
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+/* css da página inicial */
+
+.barba {
+    border: 5px solid black;
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong{
     font-weight: bold;
 }
 
-.tabelaAtend td, .tabelaAtend th{
-    border: 1px solid black;
-    padding: 8px 15px ;
+.principal em{
+    font-style: italic;
 }
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
