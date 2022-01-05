@@ -228,6 +228,12 @@ td, th {
 
 .imagembeneficios {
     width: 60%;
+    transition: 300ms;
+    box-shadow: 10px 10px 10px black;
+}
+
+.imagembeneficios:hover {
+    opacity: 0.8;
 }
 
 .conteudoBeneficios {
@@ -253,8 +259,6 @@ td, th {
     content: "★";
 }
 
-
-
 .video {
     width: 560px;
     margin: 2em auto;
@@ -277,4 +281,10 @@ Contato
 
 .fomuContato, .tabelaAtend {
     margin-left: 2em;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
 }
