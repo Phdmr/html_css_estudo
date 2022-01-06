@@ -29,7 +29,7 @@ nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -284,7 +284,20 @@ Contato
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        background: red;
+    .caixa, .principal, .conteudoBeneficios, .mapa-conteudo, 
+    .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .barba {
+        width: 97.3%;
+    }
+    .listaBeneficios, .imagembeneficios {
+        width: 100%;
     }
 }
